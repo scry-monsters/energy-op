@@ -3,9 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-
-  color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,3 +10,49 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.custom-btn{
+  background-color:black;
+	border-radius: 50px;
+  color: white;
+	font-size: var(--copyright-text-font-size);
+	text-transform: uppercase;
+	padding: 16.5px 20px;
+  border: black solid;
+}
+
+h1 {
+	font-size: 54px !important;
+	line-height: normal !important;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+p {
+	color: var(--p-color);
+	font-size: var(--p-font-size);
+	font-weight: var(--font-weight-light);
+}
+
+a,
+button {
+	touch-action: manipulation;
+	transition: all 0.3s;
+}
