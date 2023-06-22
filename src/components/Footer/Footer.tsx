@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import styles from "./Footer.module.scss";
+import { FaTelegram, FaWhatsapp, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -23,26 +24,26 @@ const Footer = () => {
 								</a>
 							</li>
 
-							<li className="footer-menu-item">
+							<li className={classNames(styles.footer_menu_item)}>
 								<a href="#" className="footer-menu-link">
 									Products
 								</a>
 							</li>
 
-							<li className="footer-menu-item">
-								<a href="#" className="footer-menu-link">
+							<li className={classNames(styles.footer_menu_item)}>
+								<a href="#" className={classNames(styles.footer_menu_link)}>
 									Privacy policy
 								</a>
 							</li>
 
-							<li className="footer-menu-item">
-								<a href="#" className="footer-menu-link">
+							<li className={classNames(styles.footer_menu_item)}>
+								<a href="#" className={classNames(styles.footer_menu_link)}>
 									FAQs
 								</a>
 							</li>
 
-							<li className="footer-menu-item">
-								<a href="#" className="footer-menu-link">
+							<li className={classNames(styles.footer_menu_item)}>
+								<a href="#" className={classNames(styles.footer_menu_link)}>
 									Contact
 								</a>
 							</li>
@@ -52,22 +53,22 @@ const Footer = () => {
 					<div className="col-lg-3 col-4">
 						<h5 className="text-white mb-3">Social</h5>
 
-						<ul className="social-icon">
+						<ul className={classNames(styles.social_icon)}>
 							<li>
 								<a href="#">
-									<i className="fa-brands fa-whatsapp"></i>
+									<FaTelegram />
 								</a>
 							</li>
 
 							<li className="mx-3">
 								<a href="#">
-									<i className="fa-brands fa-telegram"></i>
+									<FaWhatsapp />
 								</a>
 							</li>
 
 							<li>
 								<a href="#">
-									<i className="fa-solid fa-phone"></i>
+									<FaPhone />
 								</a>
 							</li>
 						</ul>

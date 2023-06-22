@@ -1,4 +1,5 @@
 import energy from "../assets/alter.png";
+import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
 	return (
@@ -53,8 +54,8 @@ const Navbar = () => {
 						<li className="nav-item">
 							<a className="nav-link" href="contact.html">
 								Контакты
-								<i className="fa-brands fa-whatsapp"></i>
-								<i className="fa-brands fa-telegram"></i>
+								<FaWhatsapp className="mx-1" />
+								<FaTelegram />
 							</a>
 						</li>
 					</ul>
