@@ -1,6 +1,7 @@
-import Carousel from "../components/CarouselComponent";
-import BeginWorking from "../components/BeginWorking";
-import Experience from "../components/Experience";
+import Carousel from "../components/Home/CarouselComponent";
+import BeginWorking from "../components/Home/BeginWorking";
+import Experience from "../components/Home/Exp/Experience";
+import OurProjects from "../components/Home/OurProjects";
 
 const Home = () => {
 	return (
@@ -8,6 +9,7 @@ const Home = () => {
 			<Carousel />
 			<BeginWorking />
 			<Experience />
+			<OurProjects />
 		</>
 	);
 };

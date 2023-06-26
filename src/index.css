@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +23,7 @@
 h1 {
 	font-size: 54px !important;
 	line-height: normal !important;
+	font-weight: 900 !important;
 }
 
 h2 {
@@ -55,4 +56,14 @@ a,
 button {
 	touch-action: manipulation;
 	transition: all 0.3s;
+  text-decoration: none !important;
+}
+@media only screen and (max-width: 992px) {
+.el_h1{
+	font-size: 38px !important;
+}
+}
+
+.contacts_h6{
+	font-weight: 700;
 }

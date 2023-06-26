@@ -7,9 +7,9 @@ const Footer = () => {
 		<footer className={styles.site_footer}>
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-3 col-10 me-auto mb-4">
-						<p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
-							Copyright © 2022<strong>Denis</strong>
+					<div className="col-lg-3 col-10 mb-4 mx-auto">
+						<p className="copyright-text mt-lg-5 mb-4 mb-lg-0 text-light">
+							Copyright © 2023<strong>Denis</strong>
 						</p>
 						<br />
 					</div>
@@ -18,7 +18,7 @@ const Footer = () => {
 						<h5 className="text-white mb-3">Sitemap</h5>
 
 						<ul className={classNames(styles.footer_menu, "d-flex flex-wrap")}>
-							<li className="footer-menu-item">
+							<li className={classNames(styles.footer_menu_item)}>
 								<a href="about.html" className="footer-menu-link">
 									Story
 								</a>
@@ -51,9 +51,9 @@ const Footer = () => {
 					</div>
 
 					<div className="col-lg-3 col-4">
-						<h5 className="text-white mb-3">Social</h5>
+						<h5 className="text-light mb-3 text-center">Social</h5>
 
-						<ul className={classNames(styles.social_icon)}>
+						<ul className={classNames(styles.social_icon, "text-center")}>
 							<li>
 								<a href="#">
 									<FaTelegram />

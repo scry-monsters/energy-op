@@ -11,7 +11,9 @@ function CarouselComponent() {
 					alt="First slide"
 				/>
 				<CarouselCaption>
-					<h1 className="slick-title">Гарантия качества</h1>
+					<h1 className="slick-title" style={{ fontWeight: "bold" }}>
+						Гарантия качества
+					</h1>
 
 					<p className="lead text-white mt-lg-3 mb-lg-5">
 						Решим любые глобальные задачи по электроснабжению.
@@ -28,7 +30,9 @@ function CarouselComponent() {
 				/>
 
 				<CarouselCaption>
-					<h1 className="slick-title">Наши партнеры</h1>
+					<h1 className="slick-title" style={{ fontWeight: "bold" }}>
+						Наши партнеры
+					</h1>
 
 					<p className="lead text-white mt-lg-3 mb-lg-5">
 						Подхватим работу на любом из этапов технологического присоединения.
@@ -45,7 +49,9 @@ function CarouselComponent() {
 				/>
 
 				<CarouselCaption>
-					<h1 className="slick-title">Наши проекты</h1>
+					<h1 className="slick-title" style={{ fontWeight: "bold" }}>
+						Наши проекты
+					</h1>
 
 					<p className="lead text-white mt-lg-3 mb-lg-5">
 						5 лет успешной работы, 400 заключенных контрактов
