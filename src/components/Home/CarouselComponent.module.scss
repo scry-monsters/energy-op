@@ -1,0 +1,16 @@
+@media only screen and (max-width: 992px) {
+    .mobile_margin{
+
+    }
+    .main_text{
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 576px) {
+.mobile_margin h1{
+    font-size: 20px !important;
+}
+.mobile_margin p{
+    font-size: 15px !important;
+}
+}

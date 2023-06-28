@@ -1,5 +1,4 @@
 import ProjectCard from "../components/ProjectsComponents/Card";
-import Card from "../components/ProjectsComponents/Card";
 import Header from "../components/ProjectsComponents/Header";
 
 const Projects = () => {
@@ -13,8 +12,14 @@ const Projects = () => {
 			>
 				<div className="row">
 					<div className="col-lg-6 col-12">
-						<h1 className="text-center" style={{ margin: "200px 0" }}>
-							<span className="d-block text-dark">Проекты</span>
+						<h1
+							className="text-center"
+							style={{
+								margin: "200px 0",
+								fontWeight: "900",
+							}}
+						>
+							Проекты
 						</h1>
 					</div>
 					<div

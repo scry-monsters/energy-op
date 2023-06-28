@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 :root {
   font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 .custom-btn{
@@ -20,43 +13,17 @@
   border: black solid;
 }
 
-h1 {
-	font-size: 54px !important;
-	line-height: normal !important;
-	font-weight: 900 !important;
-}
-
-h2 {
-	font-size: 42px;
-}
-
-h3 {
-	font-size: 36px;
-}
-
-h4 {
-	font-size: 32px;
-}
-
-h5 {
-	font-size: 24px;
-}
-
-h6 {
-	font-size: 20px;
-}
-
-p {
-	color: var(--p-color);
-	font-size: var(--p-font-size);
-	font-weight: var(--font-weight-light);
-}
-
 a,
 button {
 	touch-action: manipulation;
 	transition: all 0.3s;
   text-decoration: none !important;
+}
+@media only screen and (max-width: 576px) {
+	.custom-btn{
+		font-size: 10px;
+		padding: 5px 10px;
+	}
 }
 @media only screen and (max-width: 992px) {
 .el_h1{
@@ -66,4 +33,18 @@ button {
 
 .contacts_h6{
 	font-weight: 700;
+}
+
+.active{
+	color:coral !important;
+	text-decoration: underline !important;
+	color: #0d6efd!important;
+}
+
+a,p,h1,h2,h3,h4,h5,h6,li,a{
+	font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+nav li{
+	font-size: 15px;
+	transition: all 500ms;
 }

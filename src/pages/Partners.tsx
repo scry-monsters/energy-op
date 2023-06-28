@@ -11,7 +11,10 @@ const Partners = () => {
 			>
 				<div className="row">
 					<div className="col-lg-6 col-12">
-						<h1 className="text-center" style={{ margin: "200px 0" }}>
+						<h1
+							className="text-center"
+							style={{ margin: "200px 0", fontWeight: "900" }}
+						>
 							<span className="d-block text-dark">Партнеры</span>
 						</h1>
 					</div>
@@ -27,23 +30,27 @@ const Partners = () => {
 			</div>
 			<section>
 				<div
-					className="container text-center"
-					style={{ marginTop: "100px", marginBottom: "100px" }}
+					className="container"
+					style={{ marginTop: "80px", marginBottom: "100px" }}
 				>
-					<p className="pb-5">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deserunt
-						impedit asperiores! Excepturi molestias, at illo maiores explicabo
-						ab voluptatum voluptas nisi beatae consectetur ea veritatis quas
-						perferendis omnis ipsam corrupti provident vitae doloribus. Numquam
-						expedita omnis sapiente iure cum dolore, nostrum eos corporis
-						aspernatur. Facere sit molestias esse laboriosam quia? Assumenda
-						nulla necessitatibus, dolorem ab, dicta cupiditate nobis aspernatur
-						vitae aliquid delectus ipsam temporibus? Fuga at a ullam expedita,
-						obcaecati pariatur quaerat minus nulla, id, fugit quisquam? Eius non
-						illum aspernatur cupiditate nemo sequi eligendi omnis dolores quia?
-						Corporis fugiat animi quibusdam dignissimos labore sint autem
-						libero, a assumenda.
-					</p>
+					<h5
+						style={{
+							fontWeight: "300",
+							lineHeight: "1.6",
+							color: "#717275",
+							marginBottom: "100px",
+						}}
+					>
+						В данной статье рассмотрены основные понятия о строительстве,
+						выявление процессов строительства и его компоненты, разработка
+						проектов, определены основные понятия о сметной документации,
+						представлен обзор конструктивных решений зданий и сооружений,
+						усовершенствование и разработка проектно-сметных документаций,
+						проанализированы основные конструктивные элементы зданий и
+						сооружений, раскрытие требований для проектирования зданий и
+						сооружений,особое внимание уделено совершентствованию
+						проектно-сметных документов и строительству.
+					</h5>
 					<Carousel />
 				</div>
 			</section>

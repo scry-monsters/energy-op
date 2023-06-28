@@ -1,0 +1,9 @@
+.nav_main{
+    position: fixed !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav_main{
+        position: static !important;
+    }
+}

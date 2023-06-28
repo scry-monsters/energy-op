@@ -37,32 +37,50 @@ const BeginWorking = () => {
 		setImageState(clickData[id]);
 	};
 	return (
-		<div
-			className="container mx-auto flex"
-			style={{ margin: "130px 0 130px 0" }}
-		>
+		<div className="container mx-auto flex" style={{ margin: "70px 0 70px 0" }}>
 			<h1 className="text-center mb-5" style={{ fontWeight: "bold" }}>
 				Начните работать с нами
 			</h1>
 			<div className="row flex flex-md-row flex-column">
 				<div className="col-12 col-lg-2 flex flex-column align-items-center my-auto">
-					<p style={{ cursor: "pointer" }} onClick={() => changeWork(0)}>
+					<p
+						className="border border-2 border-light text-center rounded-3 p-2 text-white"
+						style={{ cursor: "pointer", backgroundColor: "black" }}
+						onClick={() => changeWork(0)}
+					>
 						Процесс работы
 					</p>
-					<p style={{ cursor: "pointer" }} onClick={() => changeWork(1)}>
+					<p
+						className="border border-2 border-light text-center rounded-3 p-2 text-white"
+						style={{ cursor: "pointer", backgroundColor: "black" }}
+						onClick={() => changeWork(1)}
+					>
 						Сборка продукта
 					</p>
-					<p style={{ cursor: "pointer" }} onClick={() => changeWork(2)}>
+					<p
+						className="border border-2 border-light text-center rounded-3 p-2 text-white"
+						style={{ cursor: "pointer", backgroundColor: "black" }}
+						onClick={() => changeWork(2)}
+					>
 						Возможности
 					</p>
 				</div>
-				<div className="col-12 col-lg-5">
+				<div className="col-12 col-lg-6">
 					<img src={imageState.image} alt="gundam" className="w-100" />
 				</div>
-				<div className="col-12 col-lg-5">
-					<h2>{imageState.title}</h2>
+				<div className="col-12 col-lg-4">
+					<h2 className="d-none d-lg-block">{imageState.title}</h2>
 					<p>{imageState.bodyText}</p>
-					<button className="btn btn-md md-dark btn-rounded bg-dark text-light">
+					<button
+						style={{
+							fontWeight: "700",
+							backgroundColor: "#000000",
+							borderRadius: "20px",
+							border: "none",
+							color: "#ffffff",
+							padding: "10px 15px",
+						}}
+					>
 						Узнать больше
 					</button>
 				</div>

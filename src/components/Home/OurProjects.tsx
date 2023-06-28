@@ -87,8 +87,19 @@ const OurProjects = () => {
 					</div>
 
 					<div className="col-12 text-center">
-						<Link to="/projects" style={{ fontWeight: "700" }}>
-							Вся продукция
+						<Link to="/projects">
+							<button
+								style={{
+									fontWeight: "700",
+									backgroundColor: "#000000",
+									borderRadius: "20px",
+									border: "none",
+									color: "#ffffff",
+									padding: "10px 15px",
+								}}
+							>
+								Вся продукция
+							</button>
 						</Link>
 					</div>
 				</div>
