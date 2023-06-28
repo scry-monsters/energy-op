@@ -3,7 +3,6 @@ import energy from "../../assets/alter.png";
 import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 import styles from "./Navbar.module.scss";
 import classNames from "classnames";
-import Burger from "./Burger/Burger";
 
 const Navbar = () => {
 	return (
@@ -27,7 +26,6 @@ const Navbar = () => {
 
 				<div
 					className="offcanvas offcanvas-start d-block d-lg-none"
-					tabindex="-1"
 					id="offcanvasExample"
 					aria-labelledby="offcanvasExampleLabel"
 				>
