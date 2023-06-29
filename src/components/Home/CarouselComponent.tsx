@@ -3,16 +3,15 @@ import CarouselItem from "react-bootstrap/CarouselItem";
 import CarouselCaption from "react-bootstrap/CarouselCaption";
 import classNames from "classnames";
 import styles from "./CarouselComponent.module.scss";
+import home1 from "../../assets/HomePage/1.jpg";
+import home2 from "../../assets/HomePage/2.jpg";
+import home3 from "../../assets/HomePage/3.jpg";
 
 function CarouselComponent() {
 	return (
 		<Carousel slide={true} controls={false} touch={true}>
 			<CarouselItem className={classNames(styles.mobile_margin)}>
-				<img
-					className="d-block w-100"
-					src="https://wallpaperaccess.com/full/2514412.jpg"
-					alt="First slide"
-				/>
+				<img className="d-block w-100" src={home1} alt="First slide" />
 				<CarouselCaption>
 					<h1>Гарантия качества</h1>
 
@@ -24,11 +23,7 @@ function CarouselComponent() {
 				</CarouselCaption>
 			</CarouselItem>
 			<CarouselItem className={classNames(styles.mobile_margin)}>
-				<img
-					className="d-block w-100"
-					src="https://webassets.bv.com/2019-09/Two_Combined_Cycle_Power_Plants_1920x1080.jpg"
-					alt="Second slide"
-				/>
+				<img className="d-block w-100" src={home2} alt="Second slide" />
 
 				<CarouselCaption>
 					<h1>Наши партнеры</h1>
@@ -41,11 +36,7 @@ function CarouselComponent() {
 				</CarouselCaption>
 			</CarouselItem>
 			<CarouselItem className={classNames(styles.mobile_margin)}>
-				<img
-					className="d-block w-100"
-					src="https://origins.osu.edu/sites/default/files/article18-19/nuclear-power-plant-4727976_1920.jpg"
-					alt="Third slide"
-				/>
+				<img className="d-block w-100" src={home3} alt="Third slide" />
 
 				<CarouselCaption>
 					<h1>Наши проекты</h1>

@@ -1,7 +1,6 @@
 import Carousel from "../components/Home/CarouselComponent";
 import BeginWorking from "../components/Home/BeginWorking";
 import Experience from "../components/Exp/Experience";
-import OurProjects from "../components/Home/OurProjects";
 
 const Home = () => {
 	return (
@@ -9,7 +8,6 @@ const Home = () => {
 			<Carousel />
 			<BeginWorking />
 			<Experience />
-			<OurProjects />
 		</>
 	);
 };

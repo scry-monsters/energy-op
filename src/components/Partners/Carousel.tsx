@@ -6,22 +6,6 @@ const Carousel = () => {
 			<div className="slide-track">
 				<div className="slide">
 					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
-						height="70"
-						width="250"
-						alt=""
-					/>
-				</div>
-				<div className="slide">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
-						height="50"
-						width="150"
-						alt=""
-					/>
-				</div>
-				<div className="slide">
-					<img
 						src="https://free-png.ru/wp-content/uploads/2020/11/21-215328_-google-png-animated-logos-f94db687.png"
 						height="65"
 						width="220"

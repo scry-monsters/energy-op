@@ -5,7 +5,7 @@ const Experience = () => {
 	return (
 		<div
 			style={{
-				margin: "70px 0 70px 0",
+				margin: "70px 0 0 0",
 				backgroundColor: "#F9F7F7",
 			}}
 			className="container-fluid"

@@ -1,6 +1,6 @@
 const Header = () => {
 	return (
-		<div className="col-12" style={{ padding: "100px 0" }}>
+		<div className="col-12 container" style={{ padding: "100px 0" }}>
 			<h5 style={{ fontWeight: "300", lineHeight: "1.6", color: "#717275" }}>
 				В данной статье рассмотрены основные понятия о строительстве, выявление
 				процессов строительства и его компоненты, разработка проектов,
