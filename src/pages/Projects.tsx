@@ -20,8 +20,9 @@ import R3 from "../assets/Railway/Railway3.jpg";
 import R4 from "../assets/Railway/Railway4.jpg";
 import R5 from "../assets/Railway/Railway5.jpg";
 import R6 from "../assets/Railway/Railway6.jpg";
+import { Project } from "../models/Project";
 
-const data = [
+const data: Project[] = [
 	{
 		id: 1,
 		title: "Жилые комплексы",
@@ -54,7 +55,6 @@ const data = [
 ];
 
 const Projects = () => {
-	let len = data.length;
 	return (
 		<>
 			<div

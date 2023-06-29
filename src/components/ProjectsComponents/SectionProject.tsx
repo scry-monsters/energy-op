@@ -1,7 +1,12 @@
+import { Project } from "../../models/Project";
 import CustomCarousel from "./CustomCarousel";
 import classNames from "classnames";
 
-const SectionProject = ({ data: { id, title, images, bodyText, len } }) => {
+interface Props {
+	data: Project;
+}
+
+const SectionProject = ({ data: { id, title, images, bodyText } }: Props) => {
 	return (
 		<div key={id}>
 			<div className="container-fluid my-5">

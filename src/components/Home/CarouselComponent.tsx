@@ -9,7 +9,13 @@ import home3 from "../../assets/HomePage/3.jpg";
 
 function CarouselComponent() {
 	return (
-		<Carousel slide={true} controls={false} touch={true}>
+		<Carousel
+			slide={true}
+			controls={false}
+			touch={true}
+			fade={true}
+			indicatorLabels={[]}
+		>
 			<CarouselItem className={classNames(styles.mobile_margin)}>
 				<img className="d-block w-100" src={home1} alt="First slide" />
 				<CarouselCaption>

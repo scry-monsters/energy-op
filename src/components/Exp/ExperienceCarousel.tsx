@@ -8,6 +8,7 @@ function ExperienceCarousel() {
 			touch={true}
 			indicators={false}
 			controls={true}
+			fade={true}
 			className={styles.exp_main}
 		>
 			<CarouselItem>
