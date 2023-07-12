@@ -110,7 +110,7 @@ const Navbar = () => {
 
 						<li className="nav-item">
 							<NavLink className="nav-link" to="/projects">
-								Проекты
+								Объекты
 							</NavLink>
 						</li>
 						<li className="nav-item">
