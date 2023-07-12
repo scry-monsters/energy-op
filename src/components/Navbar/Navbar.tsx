@@ -62,7 +62,7 @@ const Navbar = () => {
 								<li className="nav-item">
 									<NavLink className="nav-link" to="/projects">
 										<span data-bs-dismiss="offcanvas" aria-label="Close">
-											Проекты
+											Объекты
 										</span>
 									</NavLink>
 								</li>

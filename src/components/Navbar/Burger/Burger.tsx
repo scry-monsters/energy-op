@@ -56,7 +56,7 @@ function Burger() {
 								to="/projects"
 								onClick={() => setShow(false)}
 							>
-								Проекты
+								Объекты
 							</NavLink>
 						</li>
 						<li className="nav-item">

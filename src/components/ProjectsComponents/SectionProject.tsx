@@ -20,7 +20,11 @@ const SectionProject = ({ data: { id, title, images, bodyText } }: Props) => {
 								color: "#717275",
 							}}
 						>
-							{bodyText}
+							<ul>
+								{bodyText.map((item) => (
+									<li>{item}</li>
+								))}
+							</ul>
 						</h5>
 					</div>
 					<div className="col-12 col-lg-6 mx-0 px-0">
