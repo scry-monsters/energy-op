@@ -62,7 +62,6 @@ const Contacts = () => {
 										src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab10be06ccd01abf9e9e0cd784e24bc59736c047763d10def5307b485c07ce8af&amp;source=constructor"
 										width="500"
 										height="400"
-										frameborder="0"
 									></iframe>
 								</div>
 							</div>
@@ -78,7 +77,6 @@ const Contacts = () => {
 										src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab10be06ccd01abf9e9e0cd784e24bc59736c047763d10def5307b485c07ce8af&amp;source=constructor"
 										width="500"
 										height="400"
-										frameborder="0"
 									></iframe>
 								</div>
 							</div>
