@@ -3,13 +3,15 @@ import styles from "./Footer.module.scss";
 import { FaTelegram, FaWhatsapp, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
+	const date = new Date();
 	return (
 		<footer className={styles.site_footer}>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-10 mb-4 mx-auto">
 						<p className="copyright-text mt-lg-5 mb-4 mb-lg-0 text-light">
-							Copyright © 2023<strong>Denis</strong>
+							Copyright © {date.getFullYear()}
+							<strong>Denis</strong>
 						</p>
 						<br />
 					</div>

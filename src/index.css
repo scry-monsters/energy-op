@@ -37,12 +37,16 @@ button {
 
 .active{
 	color:coral !important;
-	text-decoration: underline !important;
-	color: #0d6efd!important;
+	/* text-decoration: underline !important; */
+	color: #4e30b2!important;
 }
 
 a,p,h1,h2,h3,h4,h5,h6,li,a{
 	font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.nav-link:hover{
+	color: #4e30b2!important;
 }
 nav li{
 	font-size: 15px;

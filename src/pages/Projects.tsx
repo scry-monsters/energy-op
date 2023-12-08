@@ -156,7 +156,7 @@ const Projects = () => {
 								fontWeight: "900",
 							}}
 						>
-							Проекты
+							Объекты
 						</h1>
 					</div>
 					<div

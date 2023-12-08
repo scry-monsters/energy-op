@@ -11,7 +11,7 @@ const Navbar = () => {
 				styles.nav_main,
 				"navbar navbar-expand-lg mx-auto w-100"
 			)}
-			style={{ zIndex: "99", backgroundColor: "#ffffff" }}
+			style={{ zIndex: "99", backgroundColor: "#ffff" }}
 		>
 			<div className="container">
 				<button
@@ -89,7 +89,7 @@ const Navbar = () => {
 				</div>
 
 				<Link className="navbar-brand" to="/">
-					<img src={energy} alt="company logo" height="50" />
+					<img src={energy} alt="company logo" height="70" />
 				</Link>
 
 				<div className="d-lg-none"></div>
