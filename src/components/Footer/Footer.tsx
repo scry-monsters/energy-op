@@ -10,8 +10,7 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-lg-3 col-10 mb-4 mx-auto">
 						<p className="copyright-text mt-lg-5 mb-4 mb-lg-0 text-light">
-							Copyright © {date.getFullYear()}
-							<strong>Denis</strong>
+							© {date.getFullYear()} <strong>СтройЭлектро</strong>
 						</p>
 						<br />
 					</div>

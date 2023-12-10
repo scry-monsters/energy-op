@@ -9,11 +9,12 @@ const Navbar = () => {
 		<nav
 			className={classNames(
 				styles.nav_main,
-				"navbar navbar-expand-lg mx-auto w-100"
+				"navbar navbar-expand-lg mx-auto w-100 fill"
 			)}
 			style={{ zIndex: "99", backgroundColor: "#ffff" }}
 		>
-			<div className="container">
+			<div className="container h-100">
+				{/* Mobile version */}
 				<button
 					className="btn btn-white d-block d-lg-none"
 					type="button"
@@ -31,7 +32,9 @@ const Navbar = () => {
 				>
 					<div className="offcanvas-header">
 						<h5 className="offcanvas-title" id="offcanvasExampleLabel">
-							СтройЭлектро
+							<Link className="navbar-brand" to="/">
+								<img src={energy} alt="company logo" height="70" />
+							</Link>
 						</h5>
 						<button
 							type="button"
@@ -87,7 +90,7 @@ const Navbar = () => {
 						</div>
 					</div>
 				</div>
-
+				{/* Desktop version */}
 				<Link className="navbar-brand" to="/">
 					<img src={energy} alt="company logo" height="70" />
 				</Link>
@@ -97,9 +100,9 @@ const Navbar = () => {
 				<div className="d-none d-lg-block" id="navbarNav">
 					<ul className="navbar-nav mx-auto gap-4">
 						<li className="nav-item">
-							<NavLink className="nav-link" to="/">
+							<a className="nav-link" href="/">
 								Главная
-							</NavLink>
+							</a>
 						</li>
 
 						<li className="nav-item">
