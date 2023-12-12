@@ -1,11 +1,11 @@
 import "./Carousel.scss";
-import logo1 from "../../assets/Partners/Российские_железные_дороги.png";
-import logo2 from "../../assets/Partners/Транснефть.png";
-import logo3 from "../../assets/Partners/Морской порт спб.png";
-import logo4 from "../../assets/Partners/россети.png";
-import logo5 from "../../assets/Partners/силовые машины.png";
-import logo6 from "../../assets/Partners/РЖД строй.png";
-import logo7 from "../../assets/Partners/КТСП.png";
+import logo1 from "../../assets/Partners/RD.png";
+import logo2 from "../../assets/Partners/transneft.png";
+import logo3 from "../../assets/Partners/morskoiport.png";
+import logo4 from "../../assets/Partners/rosseti.png";
+import logo5 from "../../assets/Partners/siloviemach.png";
+import logo6 from "../../assets/Partners/rdstroi.png";
+import logo7 from "../../assets/Partners/spbcontainer.png";
 
 const Carousel = () => {
 	return (
