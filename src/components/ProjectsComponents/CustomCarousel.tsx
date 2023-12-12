@@ -31,28 +31,16 @@ function CustomCarousel({ data }: Props) {
 						alt="First slide"
 					/>
 					<CarouselCaption>
-						<h5
-							className="d-sm-block d-none"
-							style={{
-								backgroundColor: "rgba(32,86,131,0.7)",
-								position: "absolute",
-								bottom: "70px",
-								left: "-110px",
-								padding: "20px 10px",
-								borderRadius: "2px",
-							}}
-						>
-							{item.title}
-						</h5>
 						<p
-							className="d-sm-none d-block"
+							className="d-block"
 							style={{
-								backgroundColor: "rgba(32,86,131,0.7)",
+								backgroundColor: "rgba(32,86,131,0.5)",
 								position: "absolute",
-								top: "1px",
-								padding: "10px 5px",
+								bottom: "40%",
+								left: "-22%",
+								padding: "10px 15px",
 								borderRadius: "2px",
-								fontSize: "10px",
+								fontSize: "18px",
 							}}
 						>
 							{item.title}

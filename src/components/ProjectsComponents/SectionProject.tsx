@@ -15,8 +15,9 @@ const SectionProject = ({
 			<div className="container-fluid my-5">
 				<div className="row d-flex align-items-center">
 					<div className="col-12 col-lg-6 d-flex flex-column justify-content-around p-5">
-						<h1 className={classNames("text-start")}>{title}</h1>
+						<h1 className={classNames("text-center text-md-start")}>{title}</h1>
 						<h5
+							className="text-justify text-md-start"
 							style={{
 								fontWeight: "300",
 								lineHeight: "1.6",

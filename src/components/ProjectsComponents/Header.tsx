@@ -1,7 +1,10 @@
 const Header = () => {
 	return (
 		<div className="col-12 container" style={{ padding: "100px 0" }}>
-			<h5 style={{ fontWeight: "300", lineHeight: "1.6", color: "#717275" }}>
+			<h5
+				className="text-justify text-md-none px-4 px-md-0"
+				style={{ fontWeight: "300", lineHeight: "1.6", color: "#717275" }}
+			>
 				Наша страсть к инженерии и строительству отражается в каждом проекте,
 				который мы осуществляем. Наши объекты – это наша гордость, визуальное
 				отражение профессионализма, инноваций и непрерывной преданности
