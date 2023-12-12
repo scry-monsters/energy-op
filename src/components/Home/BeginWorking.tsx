@@ -1,11 +1,13 @@
 import { useState } from "react";
-
+import begin1 from "../../assets/BeginWorking/2.jpg";
+import begin2 from "../../assets/BeginWorking/1.jpg";
+import begin3 from "../../assets/BeginWorking/3.jpg";
+import classNames from "classnames";
 const clickData = [
 	{
 		id: 1,
 		buttonText: "Процесс работы",
-		image:
-			"https://www.inventiva.co.in/wp-content/uploads/2022/09/why-we-need-to-invest-in-renewables-solar-wind-array-1920-1080.jpg",
+		image: begin1,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
 		title: "Возможности",
@@ -14,8 +16,7 @@ const clickData = [
 	{
 		id: 2,
 		buttonText: "Сборка продукта",
-		image:
-			"https://www.acquisition-international.com/wp-content/uploads/2020/05/AdobeStock_328443284-1920-x-1080.jpg",
+		image: begin2,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
 		title: "Сборка",
@@ -23,8 +24,7 @@ const clickData = [
 	{
 		id: 3,
 		buttonText: "Возможности",
-		image:
-			"https://sika.scene7.com/is/image/sika/glo-solar-roof-SSM1-south-Nauset:16-9?wid=1920&hei=1080&fit=crop%2C1",
+		image: begin3,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
 		title: "Гарантия",
@@ -66,7 +66,17 @@ const BeginWorking = () => {
 					</p>
 				</div>
 				<div className="col-12 col-lg-6">
-					<img src={imageState.image} alt="gundam" className="w-100" />
+					<img
+						src={imageState.image}
+						alt="gundam"
+						className={classNames("w-100")}
+						style={{
+							width: "100%",
+							height: "100%",
+							maxHeight: "50vh",
+							objectFit: "cover",
+						}}
+					/>
 				</div>
 				<div className="col-12 col-lg-4">
 					<h2 className="d-none d-lg-block">{imageState.title}</h2>

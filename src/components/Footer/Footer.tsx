@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import styles from "./Footer.module.scss";
-import { FaTelegram, FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 
 const Footer = () => {
 	const date = new Date();
@@ -16,46 +16,41 @@ const Footer = () => {
 					</div>
 
 					<div className="col-lg-5 col-8">
-						<h5 className="text-white mb-3">Sitemap</h5>
+						<h5 className="text-white mb-3">Компания</h5>
 
 						<ul className={classNames(styles.footer_menu, "d-flex flex-wrap")}>
 							<li className={classNames(styles.footer_menu_item)}>
-								<a href="about.html" className="footer-menu-link">
-									Story
+								<a
+									href="/about"
+									className={classNames(styles.footer_menu_link)}
+								>
+									О нас
 								</a>
 							</li>
-
 							<li className={classNames(styles.footer_menu_item)}>
-								<a href="#" className="footer-menu-link">
-									Products
+								<a
+									href="/projects"
+									className={classNames(styles.footer_menu_link)}
+								>
+									Объекты
 								</a>
 							</li>
-
 							<li className={classNames(styles.footer_menu_item)}>
-								<a href="#" className={classNames(styles.footer_menu_link)}>
-									Privacy policy
-								</a>
-							</li>
-
-							<li className={classNames(styles.footer_menu_item)}>
-								<a href="#" className={classNames(styles.footer_menu_link)}>
-									FAQs
-								</a>
-							</li>
-
-							<li className={classNames(styles.footer_menu_item)}>
-								<a href="#" className={classNames(styles.footer_menu_link)}>
-									Contact
+								<a
+									href="/partners"
+									className={classNames(styles.footer_menu_link)}
+								>
+									Партнеры
 								</a>
 							</li>
 						</ul>
 					</div>
 
 					<div className="col-lg-3 col-4">
-						<h5 className="text-light mb-3 text-center">Social</h5>
+						<h5 className="text-light mb-3 text-center">Контакты</h5>
 
 						<ul className={classNames(styles.social_icon, "text-center")}>
-							<li>
+							{/* <li>
 								<a href="#">
 									<FaTelegram />
 								</a>
@@ -71,6 +66,14 @@ const Footer = () => {
 								<a href="#">
 									<FaPhone />
 								</a>
+							</li> */}
+							<li>
+								<FaPhone className="text-white" />{" "}
+								<a href="tel:+78124649031">+7 (812) 464-90-31</a>
+							</li>
+							<li>
+								<FaPhone className="text-white" />{" "}
+								<a href="tel:+78124649032">+7 (812) 464-90-32</a>
 							</li>
 						</ul>
 					</div>

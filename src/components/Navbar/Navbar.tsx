@@ -100,9 +100,9 @@ const Navbar = () => {
 				<div className="d-none d-lg-block" id="navbarNav">
 					<ul className="navbar-nav mx-auto gap-4">
 						<li className="nav-item">
-							<a className="nav-link" href="/">
+							<NavLink className="nav-link" to="/">
 								Главная
-							</a>
+							</NavLink>
 						</li>
 
 						<li className="nav-item">

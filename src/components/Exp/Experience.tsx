@@ -26,7 +26,7 @@ const Experience = () => {
 						день «Стройэлектро» параллельно ведет несколько больших проектов.
 					</h5>
 					<h6 className={classNames(styles.work_button, "text-start")}>
-						<a href="/projects">ПОСМОТРЕТЬ НАШИ ПРОЕКТЫ</a>
+						<a href="/projects">ПОСМОТРЕТЬ НАШИ ОБЪЕКТЫ</a>
 					</h6>
 				</div>
 			</div>

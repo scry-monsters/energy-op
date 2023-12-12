@@ -12,15 +12,20 @@ import P3 from "../assets/Ports/port3.jpg";
 import P4 from "../assets/Ports/port4.jpg";
 import P5 from "../assets/Ports/port5.jpg";
 import P6 from "../assets/Ports/port6.jpg";
+import P7 from "../assets/Ports/port7.jpg";
 import OON1 from "../assets/OON/OON1.jpg";
 import OON2 from "../assets/OON/OON2.jpg";
 import OON3 from "../assets/OON/OON3.jpg";
+import OON4 from "../assets/OON/OON4.jpg";
+import OON5 from "../assets/OON/OON5.jpg";
+import OON6 from "../assets/OON/OON6.jpg";
 import R1 from "../assets/Railway/Railway1.jpg";
 import R2 from "../assets/Railway/Railway2.jpg";
 import R3 from "../assets/Railway/Railway3.jpg";
 import R4 from "../assets/Railway/Railway4.jpg";
 import R5 from "../assets/Railway/Railway5.jpg";
 import R6 from "../assets/Railway/Railway6.jpg";
+import R7 from "../assets/Railway/Railway7.jpg";
 import PO1 from "../assets/PromObject/PO1.jpg";
 import PO2 from "../assets/PromObject/PO2.jpg";
 import PO3 from "../assets/PromObject/PO3.jpg";
@@ -28,6 +33,7 @@ import PO4 from "../assets/PromObject/PO4.jpg";
 import PO5 from "../assets/PromObject/PO5.jpg";
 import PO6 from "../assets/PromObject/PO6.jpg";
 import PO7 from "../assets/PromObject/PO7.jpg";
+import PO8 from "../assets/PromObject/PO8.jpg";
 import Oil1 from "../assets/Oil/Oil1.jpg";
 import Oil2 from "../assets/Oil/Oil2.jpg";
 import Oil3 from "../assets/Oil/Oil3.jpg";
@@ -35,6 +41,9 @@ import Oil4 from "../assets/Oil/Oil4.jpg";
 import Oil5 from "../assets/Oil/Oil5.jpg";
 import Oil6 from "../assets/Oil/Oil6.jpg";
 import Oil7 from "../assets/Oil/Oil7.jpg";
+import Oil8 from "../assets/Oil/Oil8.jpg";
+import Oil9 from "../assets/Oil/Oil9.jpg";
+import Oil10 from "../assets/Oil/Oil10.jpg";
 import En1 from "../assets/EnergyObjects/En1.jpg";
 import En2 from "../assets/EnergyObjects/En2.jpg";
 import En3 from "../assets/EnergyObjects/En3.jpg";
@@ -46,7 +55,20 @@ const data: Project[] = [
 	{
 		id: 7,
 		title: "Объекты энергохозяйства",
-		images: [En2, En1, En3, En4],
+		imgAndInfo: [
+			{ img: En2, title: "ПС 330кВ Василеостровская" },
+			{ img: En1, title: "ПС 750кВ эЛенинградскаяэ (здание ОПУ)" },
+			{
+				img: En3,
+				title:
+					"Подключение СТЦ 'Мега-Парнас' к улично-дорожной сети Ленинградской области и КАД вокруг Санкт-Петербурга",
+			},
+			{
+				img: En4,
+				title:
+					"Комплексная реконструкция и техническое перевооружение ПС 330кВ Южная. Здание КРУЭ 220кВ",
+			},
+		],
 		bodyText: [
 			"ПС 750кВ эЛенинградскаяэ (здание ОПУ)",
 			"ПС № 1 110/10/6кВ г.Петрозаводск",
@@ -62,7 +84,16 @@ const data: Project[] = [
 	{
 		id: 5,
 		title: "Промышленные объекты",
-		images: [PO5, PO2, PO3, PO4, PO1, PO6, PO7],
+		imgAndInfo: [
+			{ img: PO1, title: "Горно-обогатительный комбинат ГОК Неболчи" },
+			{ img: PO2, title: "Силовые Машины" },
+			{ img: PO3, title: "ФГУП Крыловский государственный научный центр" },
+			{ img: PO4, title: "Плодоовощной комбинат Купчино" },
+			{ img: PO5, title: "Силовые Машины" },
+			{ img: PO6, title: "Силовые Машины" },
+			{ img: PO7, title: "Трансформаторная подстанция Купчино ПК" },
+			{ img: PO8, title: "Ледовый бассейн" },
+		],
 		bodyText: [
 			"ТП Подсолнечная, ТП Клин, ТП Бологое, ТП Поплавенец, ТП Алешинка, ТП Оксочи, ТП Рябово, ТП Крюково, ТП Сходня, техническое перевооружение ТП Леонтьево, ТП Лужайка, ТП Ушково, ТП Мга, ТП Гатчина, ТП Новолисино, ТП Малукса, СПб-Товарный-Московский, Реконструкция трансформаторной подстанции 'Опорная' Дальневосточной ж/д.",
 		],
@@ -70,7 +101,18 @@ const data: Project[] = [
 	{
 		id: 6,
 		title: "Нефтяная промышленность",
-		images: [Oil2, Oil1, Oil3, Oil4, Oil5, Oil6, Oil7],
+		imgAndInfo: [
+			{ img: Oil1, title: "Транснефть" },
+			{ img: Oil2, title: "НПС Невская" },
+			{ img: Oil3, title: "НПС Правдино" },
+			{ img: Oil4, title: "Завод глубокой переработки нефти ООО Кинеф" },
+			{ img: Oil5, title: "МТП Приморск" },
+			{ img: Oil6, title: "МТП Приморск" },
+			{ img: Oil7, title: "МТП Приморск" },
+			{ img: Oil8, title: "Морской торговый порт Приморск" },
+			{ img: Oil9, title: "Причальные сооружения Приморск" },
+			{ img: Oil10, title: "Транснефть" },
+		],
 		bodyText: [
 			"Реконструкция НПС 'Песь' (ООО 'Балтнефтепровод')",
 			"Реконструкция НПС 'Правдино' (ООО 'Балтнефтепровод')",
@@ -84,7 +126,14 @@ const data: Project[] = [
 	{
 		id: 1,
 		title: "Жилые комплексы",
-		images: [HC1, HC2, HC3, HC4, HC5, HC6],
+		imgAndInfo: [
+			{ img: HC1, title: "ЖК Морской" },
+			{ img: HC2, title: "ЖК на Ленинском" },
+			{ img: HC3, title: "ЖК в Рыбацком" },
+			{ img: HC4, title: "ЖК на Поликарпова" },
+			{ img: HC5, title: "ЖК в Отрадном" },
+			{ img: HC6, title: "ЖК на Фучика" },
+		],
 		bodyText: [
 			"ЖК в Никольском",
 			"ЖК в Отрадном",
@@ -99,18 +148,35 @@ const data: Project[] = [
 	{
 		id: 2,
 		title: "Морской порт и контейнерный терминал Санкт Петербурга",
-		images: [P1, P2, P3, P4, P5, P6],
+		imgAndInfo: [
+			{ img: P1, title: "Подстанция" },
+			{ img: P2, title: "Подстанция" },
+			{ img: P3, title: "Подстанция" },
+			{ img: P4, title: "Подключение кранов" },
+			{ img: P5, title: "Подключение кранов" },
+			{ img: P6, title: "Кабельная трасса" },
+			{ img: P7, title: "Кабельная трасса" },
+		],
 		bodyText: [
 			"Строительство КТПН причалов № 102, 102А, 103",
 			"Реконструкция трансформаторных подстанций № 47, КТП-630 ЦРП-4",
 			"Устройство площадки складирования металлоконструкций на территории ЗАО 'КТСП'",
 			"Монтаж сетей электроснабжения 0,4кВ и 10кВ причал №102, 102А, 103, монтаж электрооборудования и электроосвещения, наружное электроосвещение, монтаж прожекторных мачт, измерения, испытания и наладка электрооборудования",
+			"Монтаж оборудования ТП-20, кабельных муфт",
+			"Строительство и ремонт кабельных линий 0,4кВ и 6кВ, монтаж наружного освещения",
 		],
 	},
 	{
 		id: 3,
 		title: "Объекты общественного назначения",
-		images: [OON1, OON2, OON3],
+		imgAndInfo: [
+			{ img: OON1, title: "Школа Мурино" },
+			{ img: OON2, title: "'Лента' Петрозаводск" },
+			{ img: OON3, title: "Психиатрическая больница Лодейное поле" },
+			{ img: OON4, title: "ТК 'ОКА'" },
+			{ img: OON5, title: "Дом культуры в Тосно" },
+			{ img: OON6, title: "Бассейн в Тосно" },
+		],
 		bodyText: [
 			"ГБДОУ Детский сад №19 (Яхтенная 1, к2)",
 			"Бассейн в Тосно",
@@ -125,7 +191,15 @@ const data: Project[] = [
 	{
 		id: 4,
 		title: "Объекты железной дороги",
-		images: [R1, R2, R3, R4, R5, R6],
+		imgAndInfo: [
+			{ img: R1, title: "Сортировочная-Московская" },
+			{ img: R2, title: "Тяговая подстанция Крюково" },
+			{ img: R3, title: "Тяговая подстанция Тында" },
+			{ img: R4, title: "Тяговая подстанция Гатчина" },
+			{ img: R5, title: "Тяговая подстанция Лужайка" },
+			{ img: R6, title: "Тяговая подстанция Рябово" },
+			{ img: R7, title: "" },
+		],
 		bodyText: [
 			"ТП Подсолнечная, ТП Клин, ТП Бологое, ТП Поплавенец, ТП Алешинка, ТП Оксочи, ТП Рябово, ТП Крюково, ТП Сходня, техническое перевооружение ТП Леонтьево, ТП Лужайка, ТП Ушково, ТП Мга, ТП Гатчина, ТП Новолисино, ТП Малукса, СПб-Товарный-Московский, Реконструкция трансформаторной подстанции 'Опорная' Дальневосточной ж/д.",
 		],
@@ -133,7 +207,9 @@ const data: Project[] = [
 	{
 		id: 8,
 		title: "Космодром Плесецк",
-		images: [Rocket1],
+		imgAndInfo: [
+			{ img: Rocket1, title: "Монтаж электрооборудования стартовой площадки" },
+		],
 		bodyText: ["Монтаж электрооборудования стартовой площадки"],
 	},
 ];
