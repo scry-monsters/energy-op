@@ -27,7 +27,7 @@ const Contacts = () => {
 					<div className="col-lg-12 col-12 mt-5 d-none d-md-block">
 						<div className="row">
 							<div className="col-6 border-end contact-info p-5">
-								<h2 className="mb-3 contacts_h6">Горячая линия</h2>
+								<h2 className="mb-3 contacts_h6">Телефон</h2>
 								<a href="tel:+78124649031">+7 (812) 464-90-31</a> <br />
 								<a href="tel:+78124649032">+7 (812) 464-90-32</a>
 							</div>

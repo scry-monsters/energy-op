@@ -16,7 +16,7 @@ const Experience = () => {
 				</div>
 				<div className="col-12 col-lg-8 d-flex flex-column justify-content-around container p-3">
 					<h1 className={classNames(styles.work_ten, "text-start")}>
-						Опыт работы 30+ лет
+						Опыт работы более лет
 					</h1>
 					<h5
 						style={{ fontWeight: "300", lineHeight: "1.6", color: "#717275" }}

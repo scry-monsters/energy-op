@@ -1,12 +1,14 @@
 import { useState } from "react";
-import begin1 from "../../assets/BeginWorking/2.jpg";
-import begin2 from "../../assets/BeginWorking/1.jpg";
+import begin1 from "../../assets/BeginWorking/1.jpg";
+import begin2 from "../../assets/BeginWorking/2.jpg";
 import begin3 from "../../assets/BeginWorking/3.jpg";
 import classNames from "classnames";
+import { FaArrowDown } from "react-icons/fa";
+
 const clickData = [
 	{
 		id: 1,
-		buttonText: "Процесс работы",
+		buttonText: "Проектирование",
 		image: begin1,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
@@ -15,7 +17,7 @@ const clickData = [
 
 	{
 		id: 2,
-		buttonText: "Сборка продукта",
+		buttonText: "Монтажные работы",
 		image: begin2,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
@@ -23,7 +25,7 @@ const clickData = [
 	},
 	{
 		id: 3,
-		buttonText: "Возможности",
+		buttonText: "Пуско-наладочные работы",
 		image: begin3,
 		bodyText:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
@@ -37,7 +39,7 @@ const BeginWorking = () => {
 		setImageState(clickData[id]);
 	};
 	return (
-		<div className="container mx-auto flex" style={{ margin: "70px 0 70px 0" }}>
+		<div className="container mx-auto flex" style={{ margin: "70px 0" }}>
 			<h1 className="text-center mb-5" style={{ fontWeight: "bold" }}>
 				Начните работать с нами
 			</h1>
@@ -48,21 +50,27 @@ const BeginWorking = () => {
 						style={{ cursor: "pointer", backgroundColor: "black" }}
 						onClick={() => changeWork(0)}
 					>
-						Процесс работы
+						Проектирование
 					</p>
+					<div className="d-flex align-items-center justify-content-center pb-3">
+						<FaArrowDown />
+					</div>
 					<p
 						className="border border-2 border-light text-center rounded-3 p-2 text-white"
 						style={{ cursor: "pointer", backgroundColor: "black" }}
 						onClick={() => changeWork(1)}
 					>
-						Сборка продукта
+						Монтажные работы
 					</p>
+					<div className="d-flex align-items-center justify-content-center pb-3">
+						<FaArrowDown />
+					</div>
 					<p
 						className="border border-2 border-light text-center rounded-3 p-2 text-white"
 						style={{ cursor: "pointer", backgroundColor: "black" }}
 						onClick={() => changeWork(2)}
 					>
-						Возможности
+						Пуско-наладочные работы
 					</p>
 				</div>
 				<div className="col-12 col-lg-6">

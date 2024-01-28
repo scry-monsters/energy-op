@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import energy from "../../assets/alter.png";
+import energy from "../../../public/alter.png";
 import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 import styles from "./Navbar.module.scss";
 import classNames from "classnames";
@@ -69,13 +69,6 @@ const Navbar = () => {
 										</span>
 									</NavLink>
 								</li>
-								<li className="nav-item">
-									<NavLink className="nav-link" to="/partners">
-										<span data-bs-dismiss="offcanvas" aria-label="Close">
-											Партнеры
-										</span>
-									</NavLink>
-								</li>
 
 								<li className="nav-item">
 									<NavLink className="nav-link" to="/contacts">
@@ -114,11 +107,6 @@ const Navbar = () => {
 						<li className="nav-item">
 							<NavLink className="nav-link" to="/projects">
 								Объекты
-							</NavLink>
-						</li>
-						<li className="nav-item">
-							<NavLink className="nav-link" to="/partners">
-								Партнеры
 							</NavLink>
 						</li>
 
