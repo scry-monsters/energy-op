@@ -12,13 +12,16 @@ import logo10 from "../../assets/Partners/loesk.png";
 import logo11 from "../../assets/Partners/etm2.png";
 import logo12 from "../../assets/Partners/ezois.png";
 import logo13 from "../../assets/Partners/auction.png";
+import logo14 from "../../assets/Partners/1894.png";
+import logo15 from "../../assets/Partners/plast.png";
+import logo16 from "../../assets/Partners/elkom.png";
 
 const Carousel = () => {
 	return (
 		<div className="slider">
 			<div className="slide-track">
 				<div className="slide"></div>
-				<div className="slide pt-2">
+				<div className="slide">
 					<img
 						style={{ height: "90%", width: "100%", maxHeight: "140px" }}
 						src={logo1}
@@ -99,6 +102,24 @@ const Carousel = () => {
 					<img
 						style={{ height: "100%", width: "100%", maxHeight: "240px" }}
 						src={logo13}
+					/>
+				</div>
+				<div className="slide pt-2">
+					<img
+						style={{ height: "100%", width: "100%", maxHeight: "240px" }}
+						src={logo14}
+					/>
+				</div>
+				<div className="slide pt-5">
+					<img
+						style={{ height: "100%", width: "100%", maxHeight: "240px" }}
+						src={logo15}
+					/>
+				</div>
+				<div className="slide pt-2">
+					<img
+						style={{ height: "100%", width: "80%", maxHeight: "140px" }}
+						src={logo16}
 					/>
 				</div>
 				<div className="slide"></div>

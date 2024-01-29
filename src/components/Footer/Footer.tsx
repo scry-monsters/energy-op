@@ -35,14 +35,6 @@ const Footer = () => {
 									Объекты
 								</a>
 							</li>
-							<li className={classNames(styles.footer_menu_item)}>
-								<a
-									href="/partners"
-									className={classNames(styles.footer_menu_link)}
-								>
-									Партнеры
-								</a>
-							</li>
 						</ul>
 					</div>
 
@@ -50,23 +42,6 @@ const Footer = () => {
 						<h5 className="text-light mb-3 text-center">Контакты</h5>
 
 						<ul className={classNames(styles.social_icon, "text-center")}>
-							{/* <li>
-								<a href="#">
-									<FaTelegram />
-								</a>
-							</li>
-
-							<li className="mx-3">
-								<a href="#">
-									<FaWhatsapp />
-								</a>
-							</li>
-
-							<li>
-								<a href="#">
-									<FaPhone />
-								</a>
-							</li> */}
 							<li>
 								<FaPhone className="text-white" />{" "}
 								<a href="tel:+78124649031">+7 (812) 464-90-31</a>

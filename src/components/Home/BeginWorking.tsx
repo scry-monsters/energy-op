@@ -11,8 +11,8 @@ const clickData = [
 		buttonText: "Проектирование",
 		image: begin1,
 		bodyText:
-			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
-		title: "Возможности",
+			"Разрабатываем проекты в соответствие со всем действующими нормативными документами и выполнение их в полном объеме, необходимом для прохождения экспертизы.",
+		title: "Проектирование",
 	},
 
 	{
@@ -20,16 +20,16 @@ const clickData = [
 		buttonText: "Монтажные работы",
 		image: begin2,
 		bodyText:
-			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
-		title: "Сборка",
+			"Производство работ по строительству электрических сетей, монтажу электрооборудования напряжением до 110кВ",
+		title: "Монтаж",
 	},
 	{
 		id: 3,
 		buttonText: "Пуско-наладочные работы",
 		image: begin3,
 		bodyText:
-			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto neque facilis omnis expedita quae officiis fugit exercitationem? Hic, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam necessitatibus nisi sint inventore consequuntur, nam reprehenderit distinctio quis optio?",
-		title: "Гарантия",
+			"Проведение сертификационных, приемо-сдаточных, периодических испытаний электроустановок зданий и сооружений для получения акта-допуска в эксплуатацию.",
+		title: "Пуско-наладочные работы",
 	},
 ];
 
@@ -99,7 +99,9 @@ const BeginWorking = () => {
 							padding: "10px 15px",
 						}}
 					>
-						Узнать больше
+						<a href="/projects" className="text-white">
+							Узнать больше
+						</a>
 					</button>
 				</div>
 			</div>

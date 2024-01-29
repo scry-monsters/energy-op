@@ -3,7 +3,7 @@ import CarouselItem from "react-bootstrap/CarouselItem";
 import CarouselCaption from "react-bootstrap/CarouselCaption";
 import classNames from "classnames";
 import styles from "./CarouselComponent.module.scss";
-import home1 from "../../assets/HomePage/4.jpg";
+import home1 from "../../assets/HomePage/1.jpg";
 import home2 from "../../assets/HomePage/2.jpg";
 import home3 from "../../assets/HomePage/3.jpg";
 
@@ -64,14 +64,12 @@ function CarouselComponent() {
 					<h1>Наши проекты</h1>
 
 					<p className="lead text-white mt-lg-3 mb-lg-5">
-						5 лет успешной работы, 400 заключенных контрактов
+						30 лет успешной работы
 					</p>
 
-					<button className="custom-btn">
-						<a className="text-white" href="/contacts">
-							Узнать больше
-						</a>
-					</button>
+					<a className="text-white" href="/contacts">
+						Узнать больше
+					</a>
 				</CarouselCaption>
 			</CarouselItem>
 		</Carousel>

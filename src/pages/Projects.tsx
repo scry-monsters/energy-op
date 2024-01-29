@@ -1,18 +1,19 @@
 import Header from "../components/ProjectsComponents/Header";
 import SectionProject from "../components/ProjectsComponents/SectionProject";
+import projectMain from "../assets/ProjectsMain/1.jpg";
 import HC1 from "../assets/HouseComplex/HC1.jpg";
 import HC2 from "../assets/HouseComplex/HC2.jpg";
 import HC3 from "../assets/HouseComplex/HC3.jpg";
 import HC4 from "../assets/HouseComplex/HC4.jpg";
 import HC5 from "../assets/HouseComplex/HC5.jpg";
 import HC6 from "../assets/HouseComplex/HC6.jpg";
-import P1 from "../assets/Ports/port1.jpg";
-import P2 from "../assets/Ports/port2.jpg";
-import P3 from "../assets/Ports/port3.jpg";
-import P4 from "../assets/Ports/port4.jpg";
-import P5 from "../assets/Ports/port5.jpg";
-import P6 from "../assets/Ports/port6.jpg";
-import P7 from "../assets/Ports/port7.jpg";
+// import P1 from "../assets/Ports/port1.jpg";
+// import P2 from "../assets/Ports/port2.jpg";
+// import P3 from "../assets/Ports/port3.jpg";
+// import P4 from "../assets/Ports/port4.jpg";
+// import P5 from "../assets/Ports/port5.jpg";
+// import P6 from "../assets/Ports/port6.jpg";
+// import P7 from "../assets/Ports/port7.jpg";
 import OON1 from "../assets/OON/OON1.jpg";
 import OON2 from "../assets/OON/OON2.jpg";
 import OON3 from "../assets/OON/OON3.jpg";
@@ -57,7 +58,7 @@ const data: Project[] = [
 		title: "Объекты энергохозяйства",
 		imgAndInfo: [
 			{ img: En2, title: "ПС 330кВ Василеостровская" },
-			{ img: En1, title: "ПС 750кВ эЛенинградскаяэ (здание ОПУ)" },
+			{ img: En1, title: "ПС 750кВ 'Ленинградская' (здание ОПУ)" },
 			{
 				img: En3,
 				title:
@@ -95,7 +96,7 @@ const data: Project[] = [
 			{ img: PO5, title: "Силовые Машины" },
 			{ img: PO6, title: "Силовые Машины" },
 			{ img: PO7, title: "Трансформаторная подстанция Купчино ПК" },
-			{ img: PO8, title: "Ледовый бассейн" },
+			{ img: PO8, title: "Ледовый бассейн ФГУП Крыловский" },
 		],
 		bodyText: [
 			"ПАО “Силовые машины»",
@@ -117,6 +118,9 @@ const data: Project[] = [
 			"ЗАО «БСК-22» цеха по изготовлению кондиционеров г. Пушкин",
 			"Очистные сооружения ЛПДС «Красный Бор»",
 			"Электросила",
+			"АО 'Морской порт Санкт-Петербург'",
+			"ЗАО 'Контейнерный терминал Санкт-Петербург'",
+			"АО 'Петербургский нефтяной терминал'",
 		],
 	},
 	{
@@ -168,27 +172,27 @@ const data: Project[] = [
 		],
 	},
 
-	{
-		id: 2,
-		title: "Морской порт и контейнерный терминал Санкт Петербурга",
-		imgAndInfo: [
-			{ img: P1, title: "Подстанция" },
-			{ img: P2, title: "Подстанция" },
-			{ img: P3, title: "Подстанция" },
-			{ img: P4, title: "Подключение кранов" },
-			{ img: P5, title: "Подключение кранов" },
-			{ img: P6, title: "Кабельная трасса" },
-			{ img: P7, title: "Кабельная трасса" },
-		],
-		bodyText: [
-			"Строительство КТПН причалов № 102, 102А, 103",
-			"Реконструкция трансформаторных подстанций № 47, КТП-630 ЦРП-4",
-			"Устройство площадки складирования металлоконструкций на территории ЗАО 'КТСП'",
-			"Монтаж сетей электроснабжения 0,4кВ и 10кВ причал №102, 102А, 103, монтаж электрооборудования и электроосвещения, наружное электроосвещение, монтаж прожекторных мачт, измерения, испытания и наладка электрооборудования",
-			"Монтаж оборудования ТП-20, кабельных муфт",
-			"Строительство и ремонт кабельных линий 0,4кВ и 6кВ, монтаж наружного освещения",
-		],
-	},
+	// {
+	// 	id: 2,
+	// 	title: "Морской порт и контейнерный терминал Санкт Петербурга",
+	// 	imgAndInfo: [
+	// 		{ img: P1, title: "Подстанция" },
+	// 		{ img: P2, title: "Подстанция" },
+	// 		{ img: P3, title: "Подстанция" },
+	// 		{ img: P4, title: "Подключение кранов" },
+	// 		{ img: P5, title: "Подключение кранов" },
+	// 		{ img: P6, title: "Кабельная трасса" },
+	// 		{ img: P7, title: "Кабельная трасса" },
+	// 	],
+	// 	bodyText: [
+	// 		"Строительство КТПН причалов № 102, 102А, 103",
+	// 		"Реконструкция трансформаторных подстанций № 47, КТП-630 ЦРП-4",
+	// 		"Устройство площадки складирования металлоконструкций на территории ЗАО 'КТСП'",
+	// 		"Монтаж сетей электроснабжения 0,4кВ и 10кВ причал №102, 102А, 103, монтаж электрооборудования и электроосвещения, наружное электроосвещение, монтаж прожекторных мачт, измерения, испытания и наладка электрооборудования",
+	// 		"Монтаж оборудования ТП-20, кабельных муфт",
+	// 		"Строительство и ремонт кабельных линий 0,4кВ и 6кВ, монтаж наружного освещения",
+	// 	],
+	// },
 	{
 		id: 3,
 		title: "Объекты общественного назначения",
@@ -266,8 +270,7 @@ const Projects = () => {
 					<div
 						className="col-lg-6 col-12"
 						style={{
-							backgroundImage:
-								"url('https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg')",
+							backgroundImage: `url(${projectMain})`,
 							backgroundSize: "cover",
 							backgroundPosition: "center",
 						}}
