@@ -24,10 +24,15 @@ function CarouselComponent() {
 				/>
 				<CarouselCaption>
 					<p className="lead text-white mt-lg-3 mb-lg-5 font-weight-bold">
-						Решим любые глобальные задачи по электроснабжению.
+						<span
+							className="py-2 px-3 rounded"
+							style={{ backgroundColor: "rgba(32,86,131,0.9)" }}
+						>
+							Решим любые глобальные задачи по электроснабжению.
+						</span>
 					</p>
 
-					<a className="text-white" href="/contacts">
+					<a className="text-white" href="/projects">
 						Узнать больше
 					</a>
 				</CarouselCaption>
@@ -41,10 +46,16 @@ function CarouselComponent() {
 
 				<CarouselCaption>
 					<p className="lead text-white mt-lg-3 mb-lg-5 font-weight-bold">
-						Подхватим работу на любом из этапов технологического присоединения.
+						<span
+							className="py-2 px-3 rounded"
+							style={{ backgroundColor: "rgba(32,86,131,0.9)" }}
+						>
+							Подхватим работу на любом из этапов технологического
+							присоединения.
+						</span>
 					</p>
 
-					<a className="text-white" href="/contacts">
+					<a className="text-white" href="/projects">
 						Узнать больше
 					</a>
 				</CarouselCaption>
@@ -58,10 +69,15 @@ function CarouselComponent() {
 
 				<CarouselCaption>
 					<p className="lead text-white mt-lg-3 mb-lg-5 font-weight-bold">
-						30 лет успешной работы
+						<span
+							className="py-2 px-3 rounded"
+							style={{ backgroundColor: "rgba(32,86,131,0.9)" }}
+						>
+							30 лет успешной работы
+						</span>
 					</p>
 
-					<a className="text-white" href="/contacts">
+					<a className="text-white" href="/projects">
 						Узнать больше
 					</a>
 				</CarouselCaption>

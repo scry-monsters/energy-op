@@ -99,7 +99,7 @@ const BeginWorking = () => {
 							padding: "10px 15px",
 						}}
 					>
-						<a href="/projects" className="text-white">
+						<a href="/about" className="text-white">
 							Узнать больше
 						</a>
 					</button>
